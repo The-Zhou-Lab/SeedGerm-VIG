@@ -28,7 +28,7 @@ In the repository, we provide algorithms (in Jupyter notebooks) using time serie
 We also uploaded all the image series used including wheat, rice, and barley, with two example image series (i.e. black_G7, and blue_G2) packaged separately.
 
 ### jupyter notebooks
-We uploaded the step by step notebooks with an all-in-one notebook that integrating interactive widget interface.
+We uploaded the step by step notebooks, along with an all-in-one notebook that integrating interactive widget interface.
 
 ## To install Python, Anaconda and Libraries If you wish to run from the source code provided in this project, you will need to set up Python on your system.
 
