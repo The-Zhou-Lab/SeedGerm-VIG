@@ -37,13 +37,13 @@ We recommend users install the latest Anaconda Python distribution
 
 ## Some dependencies of the Jupyter notebooks: <br>
 TensorFlow = 2.2; <br>
-Scikit-image = 0.19; <br>
-Matplotlib = 3.5.1; <br>
-Pandas = 1.4.2; <br>
-Numpy = 1.22.4; <br>
-Scipy = 1.7.3; <br>
-ultralytics = 8.1.9; <br>
-PyTorch = 1.9.0;
+Scikit-image = 0.16.2; <br>
+Matplotlib = 3.5.3; <br>
+Pandas = 1.3.5; <br>
+Numpy = 1.18.4; <br>
+Scipy = 1.4.1; <br>
+ultralytics = 8.0.145; <br>
+PyTorch = 1.13.1;
 
 ## License
 Source codes, notebooks, deeplearning datasets, example germination image series, and user DL models are shared under the MIT license. The seed germination image series datasets, including wheat, barley, and rice, are under the CC0 public domain license and are available to the BioImage Archive repository S-BIAD1852 (https://doi.org/10.6019/S-BIAD1852). 
