@@ -13,9 +13,6 @@ In the repository, we provide algorithms (in Jupyter notebooks) using time serie
 
 (2) The 'SeedVig-traits' dataset for semantic segmentation, predicting masks of seeds without roots and seedling, seeds with roots and seedling, and seedling only.
 
-### Jupyter notebook <br> 
-Python-based source code that contains the image pre-processing, the model integration and execution.
-
 ### Outputs of the AI model <br> 
 (1) The YOLOv8x-Germ model and output results for germination phase detection; <br>
 
