@@ -46,7 +46,9 @@ We recommend users install the latest Anaconda Python distribution
 
 ## Key notes before installing python dependencies: 
 • The pipeline performed via jupyter notebooks is only tested with Nvidia GPUs.
+
 • It's needed to install CUDA and cuDNN according to the GPU driver.
+
 • This pipeline was validated with the TensorFlow-compatiable CUDA.
 
 ## Some dependencies of the Jupyter notebooks: <br>
