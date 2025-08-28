@@ -8,7 +8,9 @@ In the repository, we provide algorithms (in Jupyter notebooks) using time serie
 
 ## The main files are as follows:
 (1) The exemplar time-series images -- G7; <br>
+
 (2) The exemplar outputs of YOLOv8x-Germ & U-net models; <br>
+
 (3) The extracted traits of G7.
 
 ## The attached files in 'release' page are as follows:
