@@ -7,9 +7,9 @@ Early developmental phases such as seed germination and seedling establishment a
 In the repository, we provide algorithms (in Jupyter notebooks) using time series directed graph to track root tips to measure root emergence during the germination procedure, as well as a new approach to examine speed and uniformity of germination (i.e. seed vigour assessment). The datasets also include 21 commercial wheat genotypes, and 6 rice and 12 barley genotypes.
 
 ## The main files are as follows:
-### The exemplar time-series images -- G7
-### The exemplar outputs of YOLOv8x-Germ & U-net models
-### The extracted traits of G7
+(1) The exemplar time-series images -- G7; <br>
+(2) The exemplar outputs of YOLOv8x-Germ & U-net models; <br>
+(3) The extracted traits of G7.
 
 ## The attached files in 'release' page are as follows:
 ### Dataset <br>
