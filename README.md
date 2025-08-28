@@ -7,7 +7,11 @@ Early developmental phases such as seed germination and seedling establishment a
 In the repository, we provide algorithms (in Jupyter notebooks) using time series directed graph to track root tips to measure root emergence during the germination procedure, as well as a new approach to examine speed and uniformity of germination (i.e. seed vigour assessment). The datasets also include 21 commercial wheat genotypes, and 6 rice and 12 barley genotypes.
 
 ## The main files are as follows:
+### The exemplar time-series images -- G7
+### The exemplar outputs of YOLOv8x-Germ & U-net models
+### The extracted traits of G7
 
+## The attached files in 'release' page are as follows:
 ### Dataset <br>
 (1) The 'SeedVig-phase' dataset for object detection, predicting seed-level germination phases (such as imbibition, protrusion, radicle emergence, and seedling establishment); <br>
 
@@ -20,6 +24,9 @@ In the repository, we provide algorithms (in Jupyter notebooks) using time serie
 
 ### Image series
 We also uploaded all the image series used including wheat, rice, and barley, with two example image series (i.e. black_G7, and blue_G2) packaged separately.
+
+### jupyter notebooks
+We uploaded the step by step notebooks with an all-in-one notebook that integrating interactive widget interface.
 
 ## To install Python, Anaconda and Libraries If you wish to run from the source code provided in this project, you will need to set up Python on your system.
 
@@ -35,7 +42,13 @@ An Anaconda Graphical installer can be found via: https://www.continuum.io/downl
 
 We recommend users install the latest Anaconda Python distribution
 
+## Key notes before installing python dependencies: 
+• The pipeline performed via jupyter notebooks is only tested with Nvidia GPUs.
+• It's needed to install CUDA and cuDNN according to the GPU driver.
+• This pipeline was validated with the TensorFlow-compatiable CUDA.
+
 ## Some dependencies of the Jupyter notebooks: <br>
+Python = 3.7.12; <br>
 TensorFlow = 2.2; <br>
 Scikit-image = 0.16.2; <br>
 Matplotlib = 3.5.3; <br>
@@ -44,6 +57,10 @@ Numpy = 1.18.4; <br>
 Scipy = 1.4.1; <br>
 ultralytics = 8.0.145; <br>
 PyTorch = 1.13.1;
+
+## DL models related repo compatiable with the listed python dependencies:
+https://github.com/bubbliiiing/unet-keras
+https://github.com/ultralytics/ultralytics
 
 ## License
 Source codes, notebooks, deeplearning datasets, example germination image series, and user DL models are shared under the MIT license. The seed germination image series datasets, including wheat, barley, and rice, are under the CC0 public domain license and are available to the BioImage Archive repository S-BIAD1852 (https://doi.org/10.6019/S-BIAD1852). 
