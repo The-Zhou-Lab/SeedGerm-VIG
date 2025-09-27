@@ -1,6 +1,9 @@
 # SeedGerm-VIG
-Jie Dai, Zhenjie Wen, Ji Zhou
+Jie Dai<sup>1</sup>, Zhenjie Wen<sup>1</sup>, Ji Zhou<sup>1,2</sup> <br>
 
+<sup>1</sup>College of Engineering, Academy for Advanced Interdisciplinary Studies, Plant Phenomics Research Centre, Nanjing Agricultural University, Nanjing 210095, China; <br>
+
+<sup>2</sup>Data Sciences Department, National Institute of Agricultural Botany (NIAB), Crop Science Centre (CSC), Cambridge CB3 0LE, United Kingdom
 ## A brief introduction:
 Early developmental phases such as seed germination and seedling establishment are key to cereal plants' growth and development as they impact directly on crop performance and yield potential. Hence, it is critical to develop varieties with favourable early growth characteristics under various growing conditions to sustain early crop performance. In this repository, we present SeedGerm-VIG, an automated and comprehensive pipeline developed for assessing seed vigour in wheat and other cereal crops. Building on the SeedGerm system (https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16736), we integrated multiple deep learning models (i.e. YOLOv8x-Germ and optimised U-Net) and computer vision algorithms into the automated seed-level analysis pipeline to identify key germination phases and measure seed-, root-, and seedling-level phenotypic traits. <br>
 
@@ -62,7 +65,7 @@ Scipy = 1.4.1; <br>
 ultralytics = 8.0.145; <br>
 PyTorch = 1.13.1;
 
-## DL models related repo compatiable with the listed python dependencies:
+## DL models related repositories compatiable with the listed python dependencies:
 https://github.com/bubbliiiing/unet-keras
 
 https://github.com/ultralytics/ultralytics
